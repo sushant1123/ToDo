@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(179, 131, 226);
+  font-size: 6rem;
+  text-align: center;
+  opacity: 0.5;
+}
+
+form {
+  margin: auto;
+  max-width: 100%;
+  width: 400px;
+}
+
+.input {
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  display: block;
+  width: 100%;
+}
+
+.todos {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.todos li {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border-top: 1px solid #e5e5e5;
+}
+
+.todos li.completed {
+  color: #d5d5d5;
+  text-decoration: line-through;
+}
+
+p {
+  color: #b5b5b5;
+  padding: 1rem;
+  text-align: center;
+}
